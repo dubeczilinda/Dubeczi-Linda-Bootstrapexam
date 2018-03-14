@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    font-family: 'Catamaran', Arial, Helvetica, sans-serif;
+}
+
+
+.btn, .navbar, .href {
+    font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+.navbar {
+    background: transparent;
+    border: none;
+    padding: 20px auto;
+}
+
+.active {
+    background: transparent;
+}
+
+.section-first {
+    background: linear-gradient(to right, #D82634,#7F4292);
+    position: relative;
+    overflow: hidden;
+    padding: 45px 0;
+    height: 100vh;
+}
+
+.section-first::after {
+    background: url("/img/bg-pattern.png");
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-first{
+    position: absolute;
+}
+
+.container-first row {
+    position: absolute;
+    padding: 220px 20px;
+    box-sizing: border-box;
+    margin-top: 200px;
+    width: 60px;
+}
+.container-first p{
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.container-first btn {
+    background: transparent;
+}
+.container-first img {
+    border-radius: 40px;
+    height: 60vh;
+    padding-left: 20px;
+}
+
+.section-second {
+    background: #FDCA4B;
+    height: 80vh;
+    text-align: center;
+}
+
+.container-second {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.container-second p:first-child {
+    font-size: 50px;
+}
+
+.container-second img {
+    width: 135px;
+}
+
+.section-third {
+    height: 150vh;
+}
+
+.container-third {
+    padding-top: 80px;
+}
+
+.unlimitedFeatures p:last-of-type {
+    color: gray;
+}
+
+.unlimitedFeatures hr {
+    width: 120px;
+}
+
+.icons {
+    padding-top: 80px;
+}
+
+.mini {
+    padding-top: 180px;
+}
+.section-third p:first-child {
+    font-size: 40px;
+}
+
+.section-third img {
+    border-radius: 30px;
+    height: 450px;
+}
+
+.p-first::before {
+    content: "\1F4F1"
+}
+.p-third::before {
+    content: "\1F4F7"
+}
+.p-second::before {
+    content: "\1F381";
+    size: 100px;
+}
+.p-fourth::before {
+    content: "\1F513"
+}
+.section-fourth {
+    background: url("/img/bg-cta.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    box-shadow: inset 0 0 0 4096px rgba(0, 0, 0, .4)
+}
+
+.fourth {
+    padding-top: 100px;
+}
+
+.fourth .btn {
+    background: transparent;
+    border-radius: 25px;
+    color: white;
+    font-size: 10px;
+}
+
+.fourth p {
+    font-family: 'Muli', Helvetica, Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.section-fifth {
+    background: #FDC844;
+    height: 50vh;
+}
+
+.fifth {
+    padding-top: 80px;
+    font-size: 50px;
+}
+
+.fa-google-plus {
+    color: red;
+}
+
+.fa-facebook {
+    color: #3B5999;
+    border-radius: 50px;
+}
